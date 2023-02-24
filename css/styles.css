@@ -15,13 +15,7 @@ body {
   letter-spacing: 0.02em;
   max-width: 1440px;
 }
-.container {
-  width: 1440px;
-  margin: 0 auto;
-}
-.header {
-  padding: 24px 156px;
-}
+
 ul {
   margin: 0;
   padding: 0;
@@ -33,6 +27,13 @@ ul {
   text-decoration: none;
 }
 /* --------------------------------header-------------------- */
+.container {
+  padding: 0 156px 120px;
+}
+.header {
+  padding: 24px 156px;
+  border: 1px solid #e7e9fc;
+}
 .header-div {
   display: flex;
   align-items: center;
@@ -290,13 +291,9 @@ ul {
 .buttons:not(:last-child) {
   margin-right: 24px;
 }
-.images-container {
-  margin-bottom: 120px;
-  width: 1156px;
-  padding-left: 14px;
-  padding-right: 14px;
-  margin-left: auto;
-  margin-right: auto;
+.text-items {
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .images-list {
   display: flex;
