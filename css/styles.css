@@ -26,18 +26,23 @@ ul {
 .link {
   text-decoration: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* --------------------------------header-------------------- */
 .container {
-  padding: 0 156px 120px;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .header {
-  padding: 24px 156px;
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
-.header-div {
+
+.header-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .navigation {
   display: flex;
@@ -52,9 +57,7 @@ ul {
   font-weight: 500;
   color: #2e2f42;
 }
-.header-special-link {
-  margin-left: 76px;
-}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -64,8 +67,12 @@ ul {
   text-transform: uppercase;
   color: #2e2f42;
 }
+.header-links {
+  padding: 24px 0px;
+}
 .header-list {
   display: flex;
+  margin-left: 76px;
 }
 .header-list :not(:last-child) {
   margin-right: 40px;
@@ -92,8 +99,6 @@ ul {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  width: 1440px;
-  height: 600px;
 }
 .hero-title {
   font-weight: 700;
@@ -101,7 +106,8 @@ ul {
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 48px;
+  width: 494px;
+  margin: 0 auto 48px;
 }
 .hero-btn {
   font-weight: 500;
@@ -121,8 +127,8 @@ ul {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-.second-container {
-  margin: 120px 156px;
+.section-about {
+  padding: 120px 156px;
 }
 .section-ul {
   display: flex;
@@ -131,6 +137,7 @@ ul {
 }
 .section-items {
   margin-right: 24px;
+  width: 264px;
 }
 .section-items:last-child {
   margin-right: 0;
@@ -143,7 +150,6 @@ ul {
 }
 .desc-paragraph {
   color: #434455;
-  width: 264px;
 }
 .visually-hidden {
   position: absolute;
@@ -158,8 +164,8 @@ ul {
   overflow: hidden;
 }
 /*=================== section 2 ===========================*/
-.third-section-container {
-  margin: 0 156px 120px;
+.section-three {
+  padding: 0 156px 120px;
 }
 .introdution {
   font-weight: 700;
@@ -193,7 +199,7 @@ ul {
 }
 
 .name-of-workers {
-  margin-top: 32px;
+  padding-top: 32px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -201,14 +207,13 @@ ul {
   text-align: center;
 }
 .workers-activity {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
   color: #434455;
   text-align: center;
 }
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 156px;
-  height: 732px;
 }
 .workers-items:not(:last-child) {
   margin-right: 24px;
@@ -217,8 +222,6 @@ ul {
   background: #2e2f42;
   padding-bottom: 100px;
   padding-top: 100px;
-  padding-left: 156px;
-  height: 310px;
 }
 .footer-full-logo {
   display: inline-block;
@@ -265,13 +268,13 @@ ul {
 .list-button:hover {
   background-color: #404bbf;
   color: #ffffff;
+  border-color: #404bbf;
 }
 .section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.3;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .section-desc {
@@ -282,7 +285,8 @@ ul {
   font-family: inherit;
 }
 .portfolio-section {
-  margin-top: 96px;
+  padding-bottom: 120px;
+  padding-top: 96px;
 }
 .buttons-list {
   display: flex;
@@ -296,8 +300,7 @@ ul {
 .text-items {
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding-left: 16px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
 }
 .images-list {
   display: flex;
@@ -322,6 +325,7 @@ ul {
 .portfolio-footer {
   background: #2e2f42;
   height: 310px;
+  padding: 100px 0px 156px;
 }
 .portfolio-footer-text {
   color: #e7e9fc;
