@@ -66,9 +66,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  padding: 24px 0px;
 }
 .header-links {
   padding: 24px 0px;
+  display: block;
 }
 .header-list {
   display: flex;
@@ -128,7 +130,7 @@ img {
   background-color: #404bbf;
 }
 .section-about {
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 .section-ul {
   display: flex;
@@ -165,7 +167,7 @@ img {
 }
 /*=================== section 2 ===========================*/
 .section-three {
-  padding: 0 156px 120px;
+  padding-bottom: 120px;
 }
 .introdution {
   font-weight: 700;
@@ -213,7 +215,7 @@ img {
 }
 .our-team {
   background-color: #f4f4fd;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 .workers-items:not(:last-child) {
   margin-right: 24px;
